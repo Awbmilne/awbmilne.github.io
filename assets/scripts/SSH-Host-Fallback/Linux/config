@@ -1,0 +1,17 @@
+
+# Host with Global Fallback
+Host my_auto_host
+    User username
+    Match host "my_auto_host" exec "/bin/bash %d/.ssh/scripts/check-host-fingerprint.sh 192.168.0.100 SHA256:12345678901234567890123456789012345678901234567"
+        Hostname 192.168.0.100
+        Port 22
+    Hostname server.domain.org
+    Port 1022
+
+# Secondary Host using Primary as Proxy
+Host secondary
+    User u5ernam3
+    Hostname 192.168.0.101
+    Port 22
+    ProxyJump my_auto_host
+    

@@ -13,25 +13,30 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: MM
-email:
+title: AwbMilne Blog
+subtitle: The Ramblings of a UWaterloo Engineering Student
+name: Austin W. Milne
+email: awbmilne@awbmilne.ca
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-twitter_username: username
-github_username: username
-minimal_mistakes_skin: default
+  AwbMilne Blogspace for personal projects and useful tutorials
+twitter_username: AwbMilne
+github_username: awbmilne
+minimal_mistakes_skin: dark
+repository: "awbmilne/awbmilne.github.io"
+
+breadcrumbs: true 
 search: true
 
 # Build settings
 markdown: kramdown
+kramdown:
+  parse_block_html: true
 remote_theme: mmistakes/minimal-mistakes
 # Outputting
 permalink: /:categories/:title/
-paginate: 5 # amount of posts to show
+paginate: 10 # amount of posts to show
 paginate_path: /page:num/
-timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: America/Toronto # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 include:
   - _pages
@@ -58,34 +63,37 @@ plugins:
   - jekyll-include-cache
 
 author:
-  name   : "First Lastname"
-  avatar : "/assets/images/bio-photo.jpg"
-  bio    : "My awesome biography constrained to a sentence or two goes here."
+  name   : "Austin W. Milne"
+  avatar : "/assets/images/headshot.jpeg"
+  bio    : "Hey There :wave:, This my Blog!"
   links:
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-      url: "https://"
-    - label: "Twitter"
+    - label: "awbmilne@awbmilne.ca"
+      icon: "fab fa-fw fa-envelope"
+      url: "mailto:awbmilne@awbmilne.ca"
+    - label: "@awbmilne"
       icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
-    - label: "GitHub"
+      url: "https://twitter.com/awbmilne"
+    - label: "@awbmilne"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
-    - label: "Instagram"
+      url: "https://github.com/awbmilne"
+    - label: "@awbmilne"
       icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
+      url: "https://instagram.com/awbmilne"
 
 footer:
   links:
-    - label: "Twitter"
+    - label: "awbmilne@awbmilne.ca"
+      icon: "fab fa-fw fa-envelope"
+      url: "mailto:awbmilne@awbmilne.ca"
+    - label: "@awbmilne"
       icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
-    - label: "GitHub"
+      url: "https://twitter.com/awbmilne"
+    - label: "@awbmilne"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
-    - label: "Instagram"
+      url: "https://github.com/awbmilne"
+    - label: "@awbmilne"
       icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
+      url: "https://instagram.com/awbmilne"
 
 defaults:
   # _posts
