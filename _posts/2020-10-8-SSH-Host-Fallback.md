@@ -107,11 +107,11 @@ Lets see how it works in our config file:
 
 **~/.ssh/config**
 ```
+Match host "my_auto_host" exec "%d/.ssh/scripts/check-host-fingerprint.cmd 192.168.0.100 SHA256:12345678901234567890123456789012345678901234567"
+    Hostname 192.168.0.100
+    Port 22
 Host my_auto_host
     User username
-    Match host "my_auto_host" exec "%d/.ssh/scripts/check-host-fingerprint.cmd 192.168.0.100 SHA256:12345678901234567890123456789012345678901234567"
-        Hostname 192.168.0.100
-        Port 22
     Hostname server.domain.org
     Port 1022
 ```
