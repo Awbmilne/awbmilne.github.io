@@ -64,12 +64,11 @@ plugins:
 
 author:
   name   : "Austin W. Milne"
-  avatar : "/assets/images/headshot.jpeg"
+  avatar : "https://gravatar.com/avatar/25b5a0f791326094bf9e3fa93ab97cc4?s=300"
   bio    : "Hey There :wave:, This my Blog!"
   links:
-    - label: "awbmilne@awbmilne.ca"
-      icon: "fab fa-fw fa-envelope"
-      url: "mailto:awbmilne@awbmilne.ca"
+    - label: "awbmilne@gmail.com"
+      url: "mailto:awbmilne@gmail.com"
     - label: "@awbmilne"
       icon: "fab fa-fw fa-twitter-square"
       url: "https://twitter.com/awbmilne"
@@ -82,9 +81,8 @@ author:
 
 footer:
   links:
-    - label: "awbmilne@awbmilne.ca"
-      icon: "fab fa-fw fa-envelope"
-      url: "mailto:awbmilne@awbmilne.ca"
+    - label: "awbmilne@gmail.com"
+      url: "mailto:awbmilne@gmail.com"
     - label: "@awbmilne"
       icon: "fab fa-fw fa-twitter-square"
       url: "https://twitter.com/awbmilne"

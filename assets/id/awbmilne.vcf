@@ -4,27 +4,21 @@ FN:Austin William Milne
 N:Milne;Austin;William;;
 GENDER:M
 BDAY:20000202
-TEL;TYPE=CELL:15149455864
-ADR;TYPE=PERSONAL:;;;Ottawa;ON;K1S3N4;CA
-
+TEL;TYPE=Cell:15149455864
+ADR;TYPE=Home:;;;Ottawa;ON;K1S3N4;CA
 EMAIL;TYPE=Personal:awbmilne@gmail.com
 EMAIL;TYPE=School:Austin.Milne@UWaterloo.ca
-
+Title:Mechanical Engineering Student
+ORG:University of Waterloo
 URL:me.awbmilne.ca
 URL:https://www.linkedin.com/in/austin-w-milne-254b92170/
 URL:https://www.facebook.com/A.Will.Milne/
 URL:https://www.instagram.com/awbmilne/
 URL:https://github.com/awbmilne
 URL:https://gitlab.com/awbmilne
-
-NOTE;CHARSET=UTF-8:Mechanical Engineering Student\nWaterloo University\n\nGPG Key: 6E8329BB07B245820C91E88B409B6A5A30BE7AAD
-
-KEY:OPENPGP4FPR:6E8329BB07B245820C91E88B409B6A5A30BE7AAD
+NOTE:GPG Key: 6E8329BB07B245820C91E88B409B6A5A30BE7AAD
 KEY;MEDIATYPE=application/pgp-keys:https://keyserver.ubuntu.com/pks/lookup?op=get&search=0x6E8329BB07B245820C91E88B409B6A5A30BE7AAD
-
-SOURCE:https://me.awbmilne.ca/vcf
+SOURCE:https://awbmilne.github.io/assets/id/awbmilne.vcf
 UID:urn:uuid:e391c1cd-43fa-4544-aaa4-eaa852c20fbb
-REV:20201014T173000Z
+REV:20201015T004400Zcmd
 END:VCARD
-
-https://gitlab.com/Awbmilne/awbmilne/-/raw/master/AustinWMilne.vcf
