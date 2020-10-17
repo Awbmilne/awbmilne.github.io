@@ -15,9 +15,8 @@ URL:https://www.facebook.com/A.Will.Milne/
 URL:https://www.instagram.com/awbmilne/
 URL:https://github.com/awbmilne
 URL:https://gitlab.com/awbmilne
-NOTE:GPG Key: 6E8329BB 07B24582 0C91E88B 409B6A5A 30BE7AAD
+NOTE:GPG Key: 6E8329BB07B245820C91E88B409B6A5A30BE7AAD
 KEY:OPENPGP4FPR:6E8329BB07B245820C91E88B409B6A5A30BE7AAD
-KEY;MEDIATYPE=application/pgp-keys:http://keys.gnupg.net/pks/lookup?op=get&search=0x6E8329BB07B245820C91E88B409B6A5A30BE7AAD
 SOURCE:https://awbmilne.github.io/assets/id/awbmilne.vcf
 REV:2020-10-16T17:18:25.013Z
 END:VCARD
