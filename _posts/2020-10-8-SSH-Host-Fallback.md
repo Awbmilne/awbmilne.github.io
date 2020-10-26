@@ -163,10 +163,10 @@ The `SHA256:12345678901234567890123456789012345678901234567` is the Fingerprint,
 
     - This works:
         ```
+        Match host "Server" exec "[Command]"
+            Hostname 192.168.0.100
+            Port 22
         Host my_server
-            Match host "Server" exec "[Command]"
-                Hostname 192.168.0.100
-                Port 22
             Hostname server.domain.org
             Port 1022
         ```
@@ -175,9 +175,9 @@ The `SHA256:12345678901234567890123456789012345678901234567` is the Fingerprint,
         Host my_server
             Hostname server.domain.org
             Port 1022
-            Match host "Server" exec "[Command]"
-                Hostname 192.168.0.100
-                Port 22
+        Match host "Server" exec "[Command]"
+            Hostname 192.168.0.100
+            Port 22
         
         ```
     - You can use this to your advantage, but keep it in mind
@@ -213,8 +213,9 @@ Make a Pull request on the [Github Pages repo](https://github.com/Awbmilne/awbmi
 ## Files
 ### Windows Script
 <details>
-<summary> **check-host-fingerprint.cmd**
+<summary> *check-host-fingerprint.cmd*
 </summary>
+
 ```
 REM @echo off
 
@@ -240,15 +241,16 @@ FOR /F "USEBACKQ tokens=2" %%G IN (`ssh-keygen -lf %temp_file%`) DO IF /I "%2"==
 </details>
 
 <details>
-<summary> **config**
+<summary> *config*
 </summary>
+
 ```
 # Host with Global Fallback
+Match host "my_auto_host" exec "%d/.ssh/scripts/check-host-fingerprint.cmd 192.168.0.100 SHA256:12345678901234567890123456789012345678901234567"
+    Hostname 192.168.0.100
+    Port 22
 Host my_auto_host
     User username
-    Match host "my_auto_host" exec "%d/.ssh/scripts/check-host-fingerprint.cmd 192.168.0.100 SHA256:12345678901234567890123456789012345678901234567"
-        Hostname 192.168.0.100
-        Port 22
     Hostname server.domain.org
     Port 1022
 
@@ -264,8 +266,9 @@ Host secondary
 ### Unix Script (Linux, Mac)
 
 <details>
-<summary> **check-host-fingerprint.sh**
+<summary> *check-host-fingerprint.sh*
 </summary>
+
 ```
 #!/bin/bash
 
@@ -284,15 +287,16 @@ exit 1
 </details>
 
 <details>
-<summary> **config**
+<summary> *config*
 </summary>
+
 ```
 # Host with Global Fallback
+Match host "my_auto_host" exec "/bin/bash %d/.ssh/scripts/check-host-fingerprint.sh 192.168.0.100 SHA256:12345678901234567890123456789012345678901234567"
+    Hostname 192.168.0.100
+    Port 22
 Host my_auto_host
     User username
-    Match host "my_auto_host" exec "/bin/bash %d/.ssh/scripts/check-host-fingerprint.sh 192.168.0.100 SHA256:12345678901234567890123456789012345678901234567"
-        Hostname 192.168.0.100
-        Port 22
     Hostname server.domain.org
     Port 1022
 

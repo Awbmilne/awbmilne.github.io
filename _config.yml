@@ -71,28 +71,28 @@ author:
     - label: "awbmilne@gmail.com"
       url: "mailto:awbmilne@gmail.com"
     - label: "@awbmilne"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/awbmilne"
-    - label: "@awbmilne"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/awbmilne"
     - label: "@awbmilne"
       icon: "fab fa-fw fa-instagram"
       url: "https://instagram.com/awbmilne"
+    - label: "@awbmilne"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/awbmilne"
 
 footer:
   links:
     - label: "awbmilne@gmail.com"
       url: "mailto:awbmilne@gmail.com"
     - label: "@awbmilne"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/awbmilne"
-    - label: "@awbmilne"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/awbmilne"
     - label: "@awbmilne"
       icon: "fab fa-fw fa-instagram"
       url: "https://instagram.com/awbmilne"
+    - label: "@awbmilne"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/awbmilne"
 
 defaults:
   # _posts
