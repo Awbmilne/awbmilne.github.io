@@ -19,7 +19,7 @@ name: Austin W. Milne
 email: awbmilne@awbmilne.ca
 description: >- # this means to ignore newlines until "baseurl:"
   AwbMilne Blogspace for personal projects and useful tutorials
-twitter_username: AwbMilne
+# twitter_username: AwbMilne
 github_username: awbmilne
 minimal_mistakes_skin: dark
 repository: "awbmilne/awbmilne.github.io"
@@ -76,9 +76,9 @@ author:
     - label: "@awbmilne"
       icon: "fab fa-fw fa-instagram"
       url: "https://instagram.com/awbmilne"
-    - label: "@awbmilne"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/awbmilne"
+    # - label: "@awbmilne"
+    #   icon: "fab fa-fw fa-twitter-square"
+    #   url: "https://twitter.com/awbmilne"
 
 footer:
   links:
@@ -90,9 +90,9 @@ footer:
     - label: "@awbmilne"
       icon: "fab fa-fw fa-instagram"
       url: "https://instagram.com/awbmilne"
-    - label: "@awbmilne"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/awbmilne"
+    # - label: "@awbmilne"
+    #   icon: "fab fa-fw fa-twitter-square"
+    #   url: "https://twitter.com/awbmilne"
 
 defaults:
   # _posts
